@@ -1,9 +1,8 @@
 import java.io.*;
-import java.util.*;
 
 import static java.util.Arrays.sort;
 
-public class Main {
+public class B_10819 {
     static Boolean[] check = new Boolean[8];
     static int[] arr = new int[8];
     static int[] a=new int[8];
@@ -47,8 +46,5 @@ public class Main {
         br.close();
         bw.flush();
         bw.close();
-
     }
-
-
 }
